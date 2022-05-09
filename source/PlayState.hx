@@ -641,6 +641,7 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'limo':
+				var evilTrail = new FlxTrail(dad,null,4,24,0.3,0.069);
 				boyfriend.y -= 220;
 				boyfriend.x += 260;
 
@@ -651,6 +652,7 @@ class PlayState extends MusicBeatState
 				boyfriend.x += 200;
 
 			case 'mallEvil':
+				
 				boyfriend.x += 320;
 				dad.y -= 80;
 			case 'school':
